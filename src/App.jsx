@@ -15,6 +15,7 @@ const App = () => {
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => {
+    //Aqui eu pensei que poderia dar pra consumir a api
     const fetchTasks = async () => {
       const { data } = await axios.get("https://localhost:3003/v1/todo");
 
