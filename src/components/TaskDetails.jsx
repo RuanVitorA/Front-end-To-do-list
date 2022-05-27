@@ -19,15 +19,14 @@ const TaskDetails = () => {
       <div className="back-button-container" onClick={handleBackButton}>
         <Button>Voltar</Button>
       </div>
-
+      
       <div className="task-details-container">
         <h2>{params.taskTitle}</h2>
         <p>
-          Aqui seria o local pra colocar os detalhes das task
+          Veio do taskdetails
         </p>
       </div>
     </>
-  );
-};
-
+  )
+}
 export default TaskDetails;
